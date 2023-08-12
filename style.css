@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+
+
+nav .menu-img img{
+    width: 20px;
+    height: 25px;
+    display: none;
+}
+
+nav .menu-img{
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+nav ul li:first-child{
+    background-color:#6464E0;
+    padding: 8px 15px;
+    border-radius: 18px;
+}
+
+li{
+    list-style: none;
+}
+
+.left-sec .first-line{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.left-sec >h1{
+    font-size: 50px;
+}
+
+.left-sec >h2{
+    font-size: 30px;
+    color: rgb(197, 197, 89);;
+}
+
+.left-sec img{
+    width: 50px;
+}
+
+
+.developer-intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right-sec img{
+    width: 30vw;
+}
+
+.right-sec img:hover{
+    cursor: pointer;
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.section-title .hr{
+    width: 130px;
+    background-color: blue;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.project-list .project img{
+    width: 20vw;
+
+}
+
+.project-list .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.row .project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+
+.footer-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.footer-title .hr{
+    background-color: blue;
+    width: 210px;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.social-media img{
+    width: 35px;
+}
+
+footer .social-media
+{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 576px) {
+   nav .menu-img img{
+    display: block;
+    
+   }
+
+    nav ul{
+        display: none;
+    }
+
+    .developer-intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    .left-sec .first-line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-sec img{
+        width: 60vw;
+    }
+
+    .project-list .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row .project img{
+        width: 50vw;
+    }
+} 
